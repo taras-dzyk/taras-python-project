@@ -7,7 +7,7 @@ It basically fetches satellites data from open NASA api, does some operations on
 # How to run
 
 ```sh
-poetry install
+poetry install --no-root
 poetry run python main.py
 ```
 
