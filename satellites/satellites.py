@@ -8,4 +8,4 @@ def get_satellites():
     conn.request('GET', get_nasa_satellites_path())
     response = conn.getresponse().read().decode('utf-8')
     conn.close
-    return json.loads(response)
+    return json.loads(response)['data']
