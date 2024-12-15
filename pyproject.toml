@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "taras-python-project"
+version = "0.1.0"
+description = "Simple app which fetches satellites from NASA api"
+authors = ["Taras Dzyk <taras.dzyk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+black = "^24.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
